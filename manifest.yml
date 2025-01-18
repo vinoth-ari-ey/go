@@ -1,0 +1,7 @@
+applications:
+  - name: go-crud
+    memory: 512M
+    buildpacks:
+      - go_buildpack
+    services:
+      - go-crud-postgres
